@@ -11,7 +11,8 @@ $(function(){
 				quit: function () {
 				},
 				sendChatMsg: function (convId, msg) {
-					alert('Sending chat message from nodeChatBackend!');
+					console.log('sending chatMsg');
+					this.socket.emit('chatMsg', {conv_id: convId, msg: msg, user: activeUser});
 				},
 				invite: function (convId, userToInvite, groupConv, callback) {
 				},

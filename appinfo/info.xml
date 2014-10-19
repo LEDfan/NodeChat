@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<info>
+    <id>nodechat</id>
+    <name>Node Chat</name>
+    <description></description>
+    <licence>AGPL</licence>
+    <author>Tobia De Koninck</author>
+    <version>0.0.1</version>
+    <requiremin>7.0.0</requiremin>
+</info>
